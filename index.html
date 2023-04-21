@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>[] Number Analysis []</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300&display=swap" rel="stylesheet"> 
+
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    
+    <header class="container">
+        <p>[]&nbsp;</p><h1 id="h1">Number<br>Analysis</h1><p>&nbsp;[]</p>
+    </header>
+    
+    <div class="container">
+        <form id="id_form">
+            <label for="text">Type your numbers (1-100): </label>
+            <div>
+                <input type="number" id="id_number">
+                <input type="button" id="id_button" onclick="add()" value="Add"><br>
+            </div>
+
+            <select name="list" id="id_list" size="7"></select>
+
+            <br>
+            <input type="button" id="id_button" onclick="analyze()" value="Analyze"></form>
+        </form>
+
+        <div id="result"></div>
+
+    </div>
+
+    <footer class="container">
+        <p id="footer_text">Developed by Melissa Webster <a href="https://github.com/melissawebster" target="_blank" rel="external">[GitHub]</a></p>
+    </footer>
+
+
+
+</body>
+</html>

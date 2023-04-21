@@ -1,0 +1,72 @@
+body {
+    background-color: rgb(23, 23, 23);
+    font-family: 'Source Code Pro', monospace;
+    color: rgb(26, 202, 255);
+    font-style: normal;
+    font-weight: 300;
+}
+
+a {
+    color: #a434ff;
+}
+
+.container {
+    background: #2f2f2f;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #a434ff;
+    width: 75%;
+    max-width: 600px;
+    margin: 15px auto 0px auto;
+}
+
+header {
+    max-height: 150px;
+    height: 85%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.7vw;
+    text-align: center;
+}
+
+
+section {
+    height: 175px;
+    font-size: 16px;
+    text-align: center;
+}
+
+
+form {
+    margin-top: 15px;  
+}
+
+#id_form {
+    margin: 30px 0px 30px 30px;
+}
+
+#id_list {
+    margin-top: 15px;
+    width: 200px;
+}
+
+#id_button {
+    margin-top: 10px;
+}
+
+#result {
+    margin: 30px 0px 30px 30px;
+}
+
+
+footer {
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 12px;
+    font-style: italic;
+}
+
